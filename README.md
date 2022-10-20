@@ -1,14 +1,25 @@
 ## Q + A
 1. How do we assign a value to a variable?
-2. How do we change the value of a variable?
-3. How do we assign an existing variable to a new variable?
-4. Remind me, what are declare, assign, and define?
+- Let 
+-Const
+-Var / Don't use Var 
 
+2. How do we change the value of a variable?
+car = "string";
+The Variable = "string",boolean, or number.
+
+3. How do we assign an existing variable to a new variable?
+
+4. Remind me, what are declare, assign, and define?
+- To initalize or specific a variable
 ### Research 
 
 5. What is pseudocoding and why should you do it?
+Pseudocoding is the action of explaining complex code in a human answer.
+It's to grasp a better understanding your code.
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+40% thinking - 60% working
 
 ## Strings
 
@@ -21,7 +32,7 @@
 - Change the value of secondVariableto any string.
 
 What is the value of firstVariable?
-
+// First Variable is equal to the secondVariable which equals to "Hello"
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
 ex output: Hello, my name is Jean Valjean
