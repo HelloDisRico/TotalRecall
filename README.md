@@ -76,7 +76,7 @@ Write code that will print out "Here are the keys!", if the age is 16 years or o
 
 ## Loops
 
-Remember: USE letwhen you initialize your for loops!
+Remember: USE let when you initialize your for loops!
 
 This is GOOD: `for(let i = 0; i < 100; i++)`
 
@@ -141,7 +141,14 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
-Do Arrays guarantee those things will be in order?
+
+// - Elements 
+// - Yes, non-alphabetical
+// - Anything with a list of data
+
+Do Arrays guarantee those things will 
+be in order?
+Yes
 What real-life thing could you model with an array?
 
 
@@ -156,19 +163,20 @@ Create an array that contains three quotes and store it in a variable called quo
 Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
-
+// randomThings[0]
 - Change the value of `"Hello"` to `"World"`
-
+// randomThings[2 = "World"]
 - Check the value of the array to make sure it updated the array using `console.log()`
-
+// console.log(randomThing)
 
 ### D. Change values
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
-
+ourClass.array[2]
 What would you write to access the 3rd element of the array?
 Change the value of "Github" to "Octocat"
+ourClass[4] = "Octocat"
 Add a new element, "Cloud City" to the array
-
+ourClass.push("Cloud City")
 
 
 ### E. Mix It Up
@@ -242,7 +250,7 @@ const thomsCloset = [
     // These are Thom's pants
     "grey jeans",
     "jeans",
-    "PJs"
+    "Pjs"
   ],[
     // Thom's accessories
     "wool mittens",
@@ -289,7 +297,7 @@ You think you could? I think so too. Feel free to skip this problem, because you
 
 ### B. printCool
 
-Write a function `printCoolthat` accepts one parameter, `name`, as an argument. The function should print the name and a message saying that that person is cool.
+Write a function `printCool` that accepts one parameter, `name`, as an argument. The function should print the name and a message saying that that person is cool.
 
 `console.log(printCool("Captain Reynolds"));`
 `=> "Captain Reynolds is cool";`
@@ -298,7 +306,7 @@ Write a function `printCoolthat` accepts one parameter, `name`, as an argument. 
 
 
 ### C. calculateCube
-Write a function calculateCubethat takes a single number and prints the volume of a cube made from that number.
+Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
 
 `console.log(calculateCube(5));`
 `=> 125`
@@ -308,7 +316,7 @@ Write a function calculateCubethat takes a single number and prints the volume o
 
 ## D. isVowel
 
-1. Write a function `isVoweltha`t takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise. 
+1. Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise. 
 
 2. The vowel could be upper or lower case. 
 
@@ -332,7 +340,7 @@ Write a function `getTwoLengthsthat` accepts two parameters (strings). The funct
 
 ### F. getMultipleLengths
 
-Write a function `getMultipleLengthsthat` accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+Write a function `getMultipleLengths` that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
 
 `console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));`
 `=> [5, 4, 2, 2, 4]`
